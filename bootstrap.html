@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <title>Bootstrap</title>
+  </head>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <style>
+    .span{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .bg-warning{
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .bg-info{
+        margin: 2rem;
+        padding: 2rem;
+    }
+    .bg-secondary{
+        margin-left: 34rem;
+        margin-bottom: 3rem;
+        padding: 1rem;
+    }
+  </style>
+  <body>
+     <div class="span">
+    <div style="display: flex; justify-content:space-around">
+        <span class="text-success">Home</span>
+        <span class="text-success">Login</span>
+        <span class="text-success">Services</span>
+        <span class="text-success">About us</span>
+        <span class="text-success">Contact us</span>
+      </div>
+    </div>
+
+    <div class="bg-warning">
+      <h1 class="text-danger">Introduction</h1>
+      <p class="text-success">
+        Bootstrap is a free and open-source CSS framework directed at
+        responsive, mobile-first front-end web development. It contains HTML,
+        CSS and JavaScript-based design templates for typography, forms,
+        buttons, navigation, and other interface components
+      </p>
+    </div>
+
+    <div>
+      <form class="bg-info">
+        <div class="text-danger">
+            <h1>Registeration Form</h1>
+            <br>
+            <label><b>First name:</b></label>
+          <input type="text" placeholder="First name" required /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><b>Last name:</b></label>
+          <input type="text" placeholder="Last name" required />
+        </div>
+        <br>
+
+        <div class="text-danger">
+          <label><b>Date of birth:</b></label>
+          <input type="number" placeholder="Date" required />
+          <input type="number" placeholder="Month" required />
+          <input type="number" placeholder="year" required />
+        </div>
+        <br>
+
+        <div class="text-danger">
+          <label><b>Email Id:</b></label>
+          <input type="email" placeholder="Email Id" required />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label><b>Contact Number:</b></label>
+          <input type="number" placeholder="Contact number" required/>
+        </div>
+        <br>
+
+        <div class="text-danger">
+            <label><b>Gender:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="Gender"/>Male &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="Gender"/>Female
+        </div>
+        <br>
+
+        <div class="text-danger">
+          <button type="Submit"><b>Register</b></button>
+          <button type="reset"><b>Reset</b></button>
+        </div>
+    </form>
+    </div>
+
+    <table class="bg-secondary" border="2">
+        <h1 style="text-align: center;">Students Details</h1>
+      <tr class="bg-success">
+        <th>USN</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Phone number</th>
+      </tr>
+      <tr class="bg-success">
+        <td>1EE20CS024</td>
+        <td>Harshitha B</td>
+        <td>harshu@gmail.com</td>
+        <td>+91 93565 84311 </td>
+      </tr>
+      <tr class="bg-success">
+        <td>1EE20CS025</td>
+        <td>Preethi D</td>
+        <td>preethi@gmail.com</td>
+        <td>+91 93568 43115</td>
+      </tr>
+      <tr class="bg-success">
+        <td>1EE20CS026</td>
+        <td>Sritej</td>
+        <td>sritejani@gmail.com</td>
+        <td>+91 63611 11596</td>
+      </tr>
+      <tr class="bg-success">
+        <td>1EE20CS027</td>
+        <td>Suhas</td>
+        <td>suhas@gmail.com</td>
+        <td>+91 99721 89839</td>
+      </tr>
+    </table>
+    
+  </body>
+</html>
