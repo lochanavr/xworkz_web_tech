@@ -5632,7 +5632,7 @@
     vertical-align: text-top !important;
   }
   .bg-primary {
-    background-color: #007bff !important;
+    background-color: #d39e00 !important;
   }
   a.bg-primary:focus,
   a.bg-primary:hover,
@@ -5641,7 +5641,7 @@
     background-color: #0062cc !important;
   }
   .bg-secondary {
-    background-color: #abdde5 !important;
+    background-color: #f0f484 !important;
   }
   a.bg-secondary:focus,
   a.bg-secondary:hover,
